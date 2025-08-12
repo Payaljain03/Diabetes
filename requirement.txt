@@ -1,4 +1,5 @@
 stramlit
 numpy
 scikit-learn
+sklearn
 pandas
