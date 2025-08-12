@@ -1,9 +1,9 @@
 import numpy as np
-import pickle 
+import joblib
 import streamlit as st
 
 # Load the pre-trained model
-model = pickle.load(open("trained_model.sav","rb"))
+model = joblib.load(open("diabetes_model.pkl","rb"))
 
 # creating a function for prediction
 
@@ -52,4 +52,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
