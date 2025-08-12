@@ -1,6 +1,6 @@
-stramlit==1.3.0
+stramlit
 numpy
-scikit-learn
-sklearn
+scikit-learn==1.3.0
 pandas
 pickle
+
